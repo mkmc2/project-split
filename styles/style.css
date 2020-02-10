@@ -1,0 +1,49 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Alata', sans-serif; */
+/* background-color: #f8f9fa; */
+
+body {
+    font-family: 'Alata', sans-serif;
+    background-color: #757575;
+}
+#mainNavbar a {
+    color: #6d1ed4;
+}
+#purp {
+    color: #6d1ed4;
+}
+#purpBox {
+    background-color: #6d1ed4;
+}
+#whiteText {
+    color: white;
+}
+/* Jiumbotron */
+#jumbotron {
+    background-color: #f8f9fa;
+}
+
+/* Text Box Section */
+#tBSection {
+    background-color: #ffffff;
+}
+/* #textBox {
+    background: white;
+    border: #757575 1px solid;
+    border-radius: 3px;
+    color: #757575;
+} */
+
+/* Cell Paragraph */
+#toMobileApp {
+    background-color: #f8f9fa;
+}
+/* Our Charities */
+#ourCharities {
+    background-color: #6d1ed4;
+    color: white;
+}
+/* Paragraph Boxes */
+#toMobileApp {
+    color: #757575;
+}
