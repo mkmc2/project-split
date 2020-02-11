@@ -60,7 +60,13 @@ ul a {
 
 /*About HTML Doc*/
 #showcaseAbout {
-    background: url('https://images.unsplash.com/photo-1540126281354-f549412ac6b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') center center / cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') center center / cover no-repeat;
+    min-height: 400px;
+    position: relative;
+    z-index: 1;
+}
+#showcaseAbout1 {
+    background: url('https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1895&q=80') center center / cover no-repeat;
     min-height: 400px;
     position: relative;
     z-index: 1;
