@@ -14,7 +14,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/IconPurp1.png" type="image/x-icon">
 
-    <title>About Us</title>
+    <title>Contact Us</title>
   </head>
   <body>
     <section id="navBar">
@@ -31,10 +31,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navLinks">
                     <ul class="navbar-nav">
                     <li class="navbar-item">
-                        <a href="index.html" class="nav-link disabled">About Us</a>
+                        <a href="about.html" class="nav-link">About Us</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="taxfree.html" class="nav-link">Learn More</a>
+                        <a href="learn.html" class="nav-link disabled">Learn More</a>
                     </li>
                     <li class="navbar-item">
                         <a href="login.html" id="loginButton" class="nav-link">Login</a>
@@ -44,43 +44,59 @@
             </div>    
         </nav>
     </section>
-
-    <!-- Test Section Bg Image -->
-    <section id="showcaseAbout" class="d-flex justify-content-center align-items-center">
-        <div id="overlayAbout"></div>
-        <div id="header" class="container text-white">
-            <div class="row d-flex justify-content-center">
-            <div id="headerTextBg" class="col-6 py-4 d-flex justify-content-center">
-                <!-- <h1 id="headline" class="display-4 p-3">About Us</h1> -->
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row py-5 d-flex justify-content-center">
-                <div class="col-8">
+    
+    <!-- Contact Us Form -->
+    <section id="loginSection">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div id="loginDiv" class="col-md-6 pt-2 pb-5">
+                    <form id="formInput" class="p-4" action="https://formspree.io/mkmclaughlin2@gmail.com" method="POST">
                     <div>
-                        <h3>Why we started Project Split</h3>
-                        <p class="lead">
-                            Project Split was created to help increase the donations that are going to charities. Wealthy individuals are using the benefits of Qualified Charitable Distributions to help offset their taxable income by way of Require Minimum Distributions. 
-                            We believe that over the next decade, the amount of individuals who currently take advantage of this tax-efficient process will increase by 100%. It is our goal to help create a reliable process for charities to recieve funding through 
-                            QCD.
-                        </p>
+                        <div class="row pt-2 d-flex justify-content-center">
+                            <h2 class="">Contact Us</h2>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <p class="py-2">Please enter your information below and someone will be in touch as soon as possible:</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>Experience in Financial Services</h3>
-                        <p class="lead">
-                            Our team comes from individuals who have spent many years in the Financial Services industry. We have personally seen how irritating and time consuming it can be to contribute to charity from both the donor point of view,
-                            as well as the financial institution. Due to recent tax code changes, there are many more incentives to dontate to charity which is causing an increase in donations. The current system of writing checks is outdate and
-                            labor intensive. Our new system makes the charitable giving process quicker, and easier for everyone involved.
-                        </p>
-                    </div>
+                    <hr>
+                        <div class="row">
+                        <div class="col form-group">
+                            <label>Your First Name</label>
+                            <input type="text" class="form-control" name="first-name" placeholder="First">
+                        </div>
+                        <div class="col form-group">
+                            <label>Your Last Name</label>
+                            <input type="text" class="form-control" name="last-name" placeholder="Last">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col form-group">
+                            <label for="companyNameInput">What is the name of your company?</label>
+                            <input type="text" class="form-control" name="company" id="companyNameInput" aria-describedby="emailHelp" placeholder="Company Name">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col form-group">
+                            <label for="exampleInputEmail1">Enter your Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="_replyto" aria-describedby="emailHelp" placeholder="example@email.com">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col form-group">
+                            <label for="textInput">Message</label>
+                            <textarea class="form-control" id="textInput" rows="3" name="additional-text" placeholder="Tell us about your company..."></textarea>
+                        </div>
+                        </div>
+                        <button id="button" type="submit" value="Send" id="formSubmitButton" class="btn btn-primary btn-block">Submit</button>
+                    </form>
                 </div>
+                <div class="col-3"></div>    
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
     <div class="mb-0" id="footerSection">
@@ -90,7 +106,7 @@
                     <a class="nav-link d-flex" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex active" href="about.html">About</a>
+                    <a class="nav-link d-flex" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex" href="taxfree.html">Learn More</a>
@@ -99,17 +115,25 @@
                     <a class="nav-link d-flex" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex" href="contact.html">Contact</a>
+                    <a class="nav-link d-flex active" href="contact.html">Contact</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link d-flex" href="#" data-toggle="modal" data-target="#bookingModal">Modal</a>
+                </li> -->
             </ul>
             <div id="copyright" class="row pl-2 text-center">
-              <p>Copyright 2020 Project Split</p>
+                <p>Copyright 2020 Project Split</p>
             </div>
             <!-- <div id="copyright" class="row pb-3 pt-1">
                 <div class="d-none col-md-3 d-md-flex align-items-center">Potomac Way</div>
                 <div class="col-md-5 offset-md-4 d-flex align-items-center">Copyright 2010 Potomac Way LLC. All rights reserved.</div>
             </div> -->
         </div>
+        <!-- <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <p>Project Split is not a licensed investment advisor. Consult your Fiancial Advisor or CPA to learn the tax advantages before donating.</p>
+            </div>
+        </div> -->
     </div>
 
 

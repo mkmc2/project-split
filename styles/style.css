@@ -2,6 +2,7 @@
 font-family: 'Alata', sans-serif; */
 /* background-color: #f8f9fa; */
 
+/* Generic Website Styling */
 body {
     font-family: 'Alata', sans-serif;
     background-color: #757575;
@@ -17,6 +18,19 @@ body {
 }
 #whiteText {
     color: white;
+}
+#button {
+    background-color: #6d1ed4;
+    border-color: #6d1ed4;
+}
+#button:hover {
+    color: #6d1ed4;
+    background-color: #ffffff;
+    border-color: #6d1ed4;
+}
+hr {
+    color: #6d1ed4;
+    border-color: #6d1ed4;
 }
 /* Jiumbotron */
 #jumbotron {
@@ -49,10 +63,16 @@ body {
 }
 /* Footer Section */
 #footerSection {
-    background-color: #757575;
+    background-color: #353535;
 }
 ul a {
     color: #f8f9fa;
+}
+ul a:hover {
+    color: #d4d4d4;
+}
+ul .active {
+    color: #a06de2;
 }
 #copyright {
     color: #f8f9fa
@@ -81,3 +101,11 @@ ul a {
     z-index: 1;
 } */
 
+/* Login Section */
+#loginSection {
+    background-color: #f8f9fa;
+}
+#loginDiv {
+    background-color: #ffffff;
+    border-radius: 10px;
+}

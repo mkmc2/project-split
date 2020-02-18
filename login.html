@@ -14,7 +14,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/IconPurp1.png" type="image/x-icon">
 
-    <title>About Us</title>
+    <title>Login</title>
   </head>
   <body>
     <section id="navBar">
@@ -31,13 +31,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navLinks">
                     <ul class="navbar-nav">
                     <li class="navbar-item">
-                        <a href="index.html" class="nav-link disabled">About Us</a>
+                        <a href="index.html" class="nav-link ">About Us</a>
                     </li>
                     <li class="navbar-item">
                         <a href="taxfree.html" class="nav-link">Learn More</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="login.html" id="loginButton" class="nav-link">Login</a>
+                        <a href="#" id="loginButton" class="nav-link disabled" data-toggle="modal" data-target="#exampleModal">Login</a>
                     </li>
                     </ul>
                 </div>
@@ -45,39 +45,39 @@
         </nav>
     </section>
 
-    <!-- Test Section Bg Image -->
-    <section id="showcaseAbout" class="d-flex justify-content-center align-items-center">
-        <div id="overlayAbout"></div>
-        <div id="header" class="container text-white">
-            <div class="row d-flex justify-content-center">
-            <div id="headerTextBg" class="col-6 py-4 d-flex justify-content-center">
-                <!-- <h1 id="headline" class="display-4 p-3">About Us</h1> -->
-            </div>
+    <!-- Coming Soon Banner -->
+    <section id="ourCharities" class="pt-5">
+        <div class="container-fluid">
+            <div class="row py-5 d-flex justify-content-center">
+                <div>
+                    <h2>Please check back again soon, we are currently under development.</h2>
+                    <p class="">Sorry for the inconvenience and we appreciate your patience. Remember, you still have until 12/31/2020 to take your annual Required Minimum Distribution.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row py-5 d-flex justify-content-center">
-                <div class="col-8">
-                    <div>
-                        <h3>Why we started Project Split</h3>
-                        <p class="lead">
-                            Project Split was created to help increase the donations that are going to charities. Wealthy individuals are using the benefits of Qualified Charitable Distributions to help offset their taxable income by way of Require Minimum Distributions. 
-                            We believe that over the next decade, the amount of individuals who currently take advantage of this tax-efficient process will increase by 100%. It is our goal to help create a reliable process for charities to recieve funding through 
-                            QCD.
-                        </p>
+    <!-- Login Section-->
+    <section id="loginSection">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <form id="loginDiv" class="px-5 pb-5">
+                    <h3 id="purp" class="text-center pt-4 pb-2">Project Split</h3>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" readonly placeholder="name@example.com">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
-                    <div>
-                        <h3>Experience in Financial Services</h3>
-                        <p class="lead">
-                            Our team comes from individuals who have spent many years in the Financial Services industry. We have personally seen how irritating and time consuming it can be to contribute to charity from both the donor point of view,
-                            as well as the financial institution. Due to recent tax code changes, there are many more incentives to dontate to charity which is causing an increase in donations. The current system of writing checks is outdate and
-                            labor intensive. Our new system makes the charitable giving process quicker, and easier for everyone involved.
-                        </p>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" readonly placeholder="********">
                     </div>
-                </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label id="purp" class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button id="button" type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </section>
@@ -90,13 +90,13 @@
                     <a class="nav-link d-flex" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex active" href="about.html">About</a>
+                    <a class="nav-link d-flex" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex" href="taxfree.html">Learn More</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex" href="login.html">Login</a>
+                    <a class="nav-link d-flex active" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex" href="contact.html">Contact</a>
